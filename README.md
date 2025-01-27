@@ -7,28 +7,24 @@ This is a simple Python tool to watermark images using a PNG watermark.
  1. **Clone the Repository**
      Clone this repository to your local machine using Git:
      ```
-     git clone <repository_url>
+     git clone https://github.com/WebsitesByIvan/watermaking-tool
      ```
 
  2. **Navigate to the project folder**
     ```
-    cd watermark_project
+    cd watermark
     ```
 
  3.  **Set Up a Virtual Environment (Recommended)**
 
      It's good practice to create a virtual environment to isolate project dependencies:
      ```bash
-     python -m venv venv  # Create a virtual environment called 'venv'
+     python -m venv env  # Create a virtual environment called 'venv'
      ```
      *   **On Windows:**
        ```bash
-       venv\Scripts\activate  # Activate the virtual environment
+       env\Scripts\activate.bat  # Activate the virtual environment
        ```
-     *   **On macOS and Linux:**
-        ```bash
-        source venv/bin/activate # Activate the virtual environment
-        ```
      
  4.  **Install Dependencies**
 
@@ -72,9 +68,8 @@ This is a simple Python tool to watermark images using a PNG watermark.
 Feel free to contribute to this project with improvements and bug fixes.
 
 ## Author
-[Your Name]
+Ivan Perez
 
 ## License
 
-This project is licensed under the [Your License].
-Use code with caution.
+This project is licensed under the MIT License.
